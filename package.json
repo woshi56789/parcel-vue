@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-plugin-vue": "^0.1.0"
+    "parcel-plugin-vue": "^1.0.0"
   },
   "dependencies": {
     "vue": "^2.5.9",
