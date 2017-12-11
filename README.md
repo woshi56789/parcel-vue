@@ -1,8 +1,8 @@
 # parcel-vue-demo
 
-You should `node >= 8`.
+You must `node >= 8`.
 
 ```
-npm i parcel-bundler -g
-parcel index.html
+npm i
+npm run dev
 ```

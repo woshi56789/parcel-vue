@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "rm -rf .cache && rm -rf dist && parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel-bundler": "^1.1.0",
     "parcel-plugin-vue": "^1.0.0"
   },
   "dependencies": {
