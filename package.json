@@ -11,10 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.1.0",
-    "parcel-plugin-vue": "^1.0.0"
+    "parcel-plugin-vue": "^1.0.1"
   },
   "dependencies": {
-    "vue": "^2.5.9",
-    "vue-hot-reload-api": "^2.2.4"
+    "less": "^2.7.3",
+    "vue": "^2.5.9"
   }
 }
