@@ -1,13 +1,19 @@
 <template>
-    <div>Hello {{ WORLD }}!</div>
+    <div>Hello {{ WORLD }}! <att /></div>
 </template>
 
 <script>
+import a from './a.vue';
+import b from './b.js';
+
 export default {
     data() {
         return {
-            WORLD: 'World'
+            WORLD: b
         };
+    },
+    components: {
+        Att: a
     }
 };
 </script>
