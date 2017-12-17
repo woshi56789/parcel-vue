@@ -1,19 +1,19 @@
 <template>
-    <div>Hello {{ WORLD }}! <att /></div>
+    <div>Hello {{ World }}! <ComponentA /></div>
 </template>
 
 <script>
-import a from './a.vue';
-import b from './b.js';
+import ComponentA from './ComponentA';
+import World from './World';
 
 export default {
     data() {
         return {
-            WORLD: b
+            World
         };
     },
     components: {
-        Att: a
+        ComponentA
     }
 };
 </script>
