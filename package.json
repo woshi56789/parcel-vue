@@ -5,21 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "rm -rf .cache && rm -rf dist && parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "NODE_ENV=production parcel build index.html -d build --public-url='./' --no-minify"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^8.0.3",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
-    "eslint": "^4.13.1",
     "less": "^2.7.3",
     "parcel-bundler": "^1.1.0",
-    "parcel-plugin-eslint": "1.0.0",
     "parcel-plugin-vue": "1.2.0"
   },
   "dependencies": {
-    "vue": "^2.5.9"
+    "@u51/pg": "^3.4.2",
+    "@u51/week-ui-toast": "^1.0.7",
+    "axios": "^0.17.1",
+    "vue": "^2.5.9",
+    "vue-router": "^3.0.1"
   }
 }

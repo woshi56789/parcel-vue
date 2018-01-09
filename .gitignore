@@ -9,3 +9,4 @@ node_modules
 #package.json
 #README.md
 *.log
+.idea

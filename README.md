@@ -10,4 +10,3 @@ npm run dev
 ## You May Like
 
 * parcel-plugin-vue
-* parcel-plugin-eslint
